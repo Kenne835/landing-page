@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    text-align: center;
+  }
+
+  .jumbotron {
+    background-color: #f8f8f4;
+  }
+
+  h1 {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://stevemccurry.files.wordpress.com/2014/11/afghn-12819.jpg");
+    height: 60%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 125px;
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+
+body {
+  font-size: 15px;
+}
+
+.navBardemoBasicUsage md-content {
+  padding: 50px;
+  margin: 20px;
+  background-color: blue;
+}

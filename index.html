@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+
+    <!-- Angular Material -->
+    <link href="vendors/angular-material.css" rel="stylesheet" type="text/css">
+    <script src="vendors/angular-animate.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-aria.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-messages.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-material.min.js" charset="utf-8"></script>
+
+    <script src="scripts/client.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" media="screen"/>
+    <script src="scripts/github.service.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="/views/styles.css">
+  </head>
+  <body ng-app="myApp">
+
+    <h1>My Portfolio</h1>
+
+    <header ng-include="'/views/templates/nav.html'"></header>
+
+    <main ng-view>
+
+      <div class="text-center col-md-12 col-sm-12">
+  <center><h4>ABOUT ME</h4></center>
+  <center><p>Anne Kennedy</p></center>
+  <th>
+  <tr>
+    <td class="name">Username: Kenne835</td><br>
+    <td class="link">Github: <a href="">View Github Profile</a></td>
+  </th>
+  </th>
+</div>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "### Objectives - Angular practice with multiple views, controllers, and a service - Front end styling - Hosting without a database on Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-animate": "^1.6.6",
+    "angular-aria": "^1.6.6",
+    "angular-material": "^1.1.5",
+    "angular-messages": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "^1.18.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "material": "^0.2.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenne835/landing-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kenne835/landing-page/issues"
+  },
+  "homepage": "https://github.com/Kenne835/landing-page#readme"
+}
